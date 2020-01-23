@@ -1,0 +1,128 @@
+/* Body Styling */
+
+div.wrapper{
+margin-top: 80px;
+}
+.inline{
+    display: inline;
+}
+
+
+/* User Profile Styling */
+.profile{
+    margin: 20px;
+}
+img{
+    width:inherit;
+    text-align: centre;
+    margin-top: 50px;
+}
+hr.style1 { 
+    border: 1px; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  }
+
+hr.style2 { 
+margin-bottom: 60px;
+border: 1px; 
+height: 1px; 
+background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+background: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+background: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+background: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+h4.style2{
+    margin-top: 50px;
+    font-family: 'Great Vibes', cursive; 
+    text-align: center;
+    font-size: 36px;
+    color:#0BB6E4;
+}
+h4{
+    font-family: 'Great Vibes', cursive; 
+    text-align: center;
+    font-size: 36px;
+    color:#0BB6E4;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+div.col-md-3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+span.profile_follows{
+    float: right;
+}
+span.badge{
+    margin:5px;
+}
+i{
+    padding: 5px;
+}
+
+.github_btn{
+    margin: 30px 0px 30px ;
+}
+.search{
+    padding: 30px;
+    margin: 0 30px 0 20px;
+}
+
+.searchtext{
+    padding-top:10px;
+    font-size: 14px;
+    color:#8c8b8b;
+}
+
+/* End of Users Styling */
+
+/* Repositories section styling */
+div.cards{
+    width: 100%;
+}
+
+div.cards.repocard{
+    border: 1px solid #d8d4d4;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+
+}
+
+div.container-fluid.search{
+    padding-bottom: 0px;
+
+}
+/* End of Repositories Styling */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 348px) {
+    div.card-header{
+        height: 180px;
+    }
+
+} 
+
+@media only screen and (max-width: 610px)and (min-width:348px) {
+    div.card-header{
+        height: 110px;
+    }
+
+} 
+
+
