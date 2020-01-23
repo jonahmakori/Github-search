@@ -1,5 +1,5 @@
 
-<div class="container-fluid" style="background-color: rgb(226, 5, 5);">
+<div class="container-fluid" style="background-color: rgba(150, 140, 140, 0.97); font-size:29px;">
 <!--beggining of search input -->
   <div class="container-fluid">
     <h4 class="style2" style="padding-top: 5%;">Repositories</h4>
@@ -9,12 +9,13 @@
 
       <div class="container-fluid search">
 
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="text" placeholder="Repository" aria-label="Search"
+        <form class="form-inline" style="display: inline-block; margin-left: 25%; text-align: center;">
+          <input class="form-control btn-outline-info" style="width: 100vh; font-size: larger;" type="text" placeholder="Search Repository" aria-label="Search"
             [(ngModel)]="reponame" name="reponame" (keyup.enter)="searchRepo()">
-          <button class="btn btn-outline-info my-2 my-sm-0" type="submit"> <i class="fas fa-search"></i>Search</button>
+            <p class="searchtext" style="font-size:27px;">
+              Enter Repository name to search for github profile</p>
+          <button  class="btn btn-primary" type="submit"> <i class="fas fa-search"></i>Search</button>
         </form>
-        <p class="searchtext">Enter Repository name to search for github profile</p>
       </div>
       <!-- End of search input -->
 

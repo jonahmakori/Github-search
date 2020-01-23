@@ -2,7 +2,8 @@
 
 div.wrapper{
 margin-top: 80px;
-background-color: skyblue;
+background-color: rgb(83, 104, 94);
+font-size: 30px;
 }
 .inline{
     display: inline;

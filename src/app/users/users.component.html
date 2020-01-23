@@ -11,11 +11,11 @@
       
       <!-- Search input Section -->
       <div class="container-fluid search">
-        <form class="form-inline" style="text-align: center;margin-left: 40%; width: 100%; color: rgb(243, 4, 4);">
-          <input class="form-control badge-success " type="text" placeholder="Git Username" aria-label="Search" [(ngModel)]="username" name = "username" (keyup)= "searchUser()">
+        <form class="form-inline" style="text-align: center; display: inline-block; margin-left: 25%;">
+          <input class="form-control badge-success " style="width: 100vh; color: black; font-size: larger;" type="text" placeholder="Git Username" aria-label="Search" [(ngModel)]="username" name = "username" (keyup)= "searchUser()"><br>
+          <p class="searchtext" style="color: black; font-size: 28px;">Enter Username to search for github profile</p>
           <button class="btn btn-primary" type="submit"> <i class="fas fa-search"></i>Search</button>
         </form>
-        <p class="searchtext">Enter Username to search for github profile</p>
       </div>
     </div>
     <!-- End of search section -->
