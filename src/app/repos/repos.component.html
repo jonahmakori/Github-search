@@ -35,13 +35,15 @@
                 <span class="spacing">{{repo['forks']}}</span>
               </span>
           </div>
-            <div class="card-body">
-      
-                <p>
-                  {{repo['created_at'] | date}} 
-                </p> 
-      <a href="{{repo.html_url}}" target="_blank" class= "btn btn-primary btn-sm">View on Github</a> 
-      </div>
+          <div class="card-body">
+            <p>
+                {{repo['description']}}
+            </p>
+            <p>
+              {{repo['created_at'] | date}} 
+            </p>
+            <a href="{{repo.html_url}}" target="_blank" class= "btn btn-primary btn-sm"  >View on Github</a>
+        </div> 
       </div>
         </div>
     </div>
