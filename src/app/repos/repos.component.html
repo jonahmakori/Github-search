@@ -1,13 +1,12 @@
-<!-- Begin of wrapper -->
-<div class="wrapper">
 
+<div class="container-fluid">
+<!--beggining of search input -->
   <div class="container-fluid">
     <h4 class="style2">Repositories</h4>
     <hr class="style2">
 
     <div class="row">
 
-      <!-- Search input section -->
       <div class="container-fluid search">
 
         <form class="form-inline">
@@ -26,7 +25,7 @@
       <div class="cards repocard" >
             <div class="card-header">
 
-       <h5 class = "card-title inline" appFont>
+       <h5 class = "card-title inline">
                   {{repo['name']}}
               </h5>
 
@@ -46,27 +45,4 @@
         </div>
     </div>
   </div>
-
-
-
-
-
-
-
-  <div class='container'>
-    <div class='col-md-4' *ngFor="let repo of repos['items']">
-      <p>{{repo.name}}</p>
-      <a href='{{repo.html_url}}' style="color:red" class='btn btn-outline-primary'>Check It on Github</a>
-
-
-    </div>
-  </div>
-
-
-
-
-
-
-
 </div>
-<!-- End of wrapper -->
