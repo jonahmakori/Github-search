@@ -12,7 +12,7 @@
       <!-- Search input Section -->
       <div class="container-fluid search">
         <form class="form-inline" style="text-align: center; display: inline-block; margin-left: 25%;">
-          <input class="form-control badge-success " style="width: 100vh; color: black; font-size: larger;" type="text" placeholder="Git Username" aria-label="Search" [(ngModel)]="username" name = "username" (keyup)= "searchUser()"><br>
+          <input class="form-control badge-success " style="width: 100vh; color: black; font-size:35px;" type="text" placeholder="Git Username" aria-label="Search" [(ngModel)]="username" name = "username" (keyup)= "searchUser()"><br>
           <p class="searchtext" style="color: black; font-size: 28px;">Enter Username to search for github profile</p>
           <button class="btn btn-primary" type="submit"> <i class="fas fa-search"></i>Search</button>
         </form>
@@ -91,7 +91,7 @@
                     </table>
 
                     <p>
-                      <a href="{{users.html_url}}" target="_blank"class="btn btn-primary btn-sm github_btn">View profile from Github</a>
+                      <a href="{{users.html_url}}" target="_blank"class="btn btn-primary btn-sm github_btn" style="font-size:30px;">View profile from Github</a>
                     </p>
               </div>
             </div>
@@ -101,7 +101,7 @@
 <!-- End of User Profile Section -->
 
 <!-- Begin of Repositories Section -->
-      <div class="container-fluid">
+      <div class="container-fluid" id="#repo" style="padding-top: 5%;">
           <h4 class="style2">{{users.name | last}}'s Repositories</h4>
           <hr class="style2">
         <div class="row">

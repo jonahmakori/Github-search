@@ -64,9 +64,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Project screenshot
-
+This is the landing page of the Website.<br>
  <img src="./src/assets/screenshot.png" width=500px >
- This is the landing page of the Website.
+
 
 ## Technologies Used
 
@@ -81,15 +81,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Open Terminal {Ctrl+Alt+T}
 cd quotes
 code .or atom.depending on the text editor of your choice
-git clone https://github.com/jonahmakori/gitsearch.git
+git clone https://github.com/jonahmakori/GitHub-Search.git
 
 
 ## codebeat
 
 My Grade
-
-
-[![codebeat badge](https://codebeat.co/badges/1f290306-6451-4b14-b41b-84385dd026c2)](https://codebeat.co/projects/github-com-jonahmakori-git-search-dev)
+[![codebeat badge](https://codebeat.co/badges/9d40f04e-c7bf-44b1-963e-dcf79e05f301)](https://codebeat.co/projects/github-com-jonahmakori-github-search-master)
 
 
 ## Further help
