@@ -1,15 +1,10 @@
 
-<!-- Navigation Section -->
 <app-root></app-root>
 
-<!-- Begin of Wrapper -->
-<div class="wrapper">
-
-  <div class="container-fluid">
+  <div class="container-fluid body">
 
     <div class="row">
       
-      <!-- Search input Section -->
       <div class="container-fluid search">
         <form class="form-inline" style="text-align: center; display: inline-block; margin-left: 25%;">
           <input class="form-control badge-success " style="width: 100vh; color: black; font-size:35px;" type="text" placeholder="Git Username" aria-label="Search" [(ngModel)]="username" name = "username" (keyup)= "searchUser()"><br>
@@ -18,9 +13,7 @@
         </form>
       </div>
     </div>
-    <!-- End of search section -->
 
-  <!-- Begin of User Profile sectioin -->
     <div class="row profile">
 
       <div class="col-md-12 col-sm-12">
@@ -35,17 +28,18 @@
                       </p>
 
                       <span class="profile_follows">
-                        <span class="badge badge-primary">
-                        <i class="fas fa-user"></i>Followers
-                        <span class="spacing">{{users.followers}}</span>
-                      </span>
+                        <span class="badge badge-info">
+                          <i class="fas fa-code-branch"></i>Public Gist
+                          <span class="spacing">{{users.public_gist}}</span>
+                        </span>
                       <span class="badge badge-success">
                         <i class="fas fa-user"></i>Following
                         <span class="spacing">{{users.following}}</span>
                       </span>
-                      <span class="badge badge-info">
-                        <i class="fas fa-code-branch"></i>Public Gist
-                        <span class="spacing">{{users.public_gist}}</span>
+                      
+                      <span class="badge badge-primary">
+                        <i class="fas fa-user"></i>Followers
+                        <span class="spacing">{{users.followers}}</span>
                       </span>
                       </span>
 
@@ -62,9 +56,6 @@
 
 
               <div class="col-md-7 offset-md-2 col-sm-12">
-                <div *ngIf="users['name']">
-                  <h4>{{users.name}}</h4>
-                </div>
                   <hr class="style1">
                   <p>{{users.bio}}</p>
                   <table>
@@ -98,17 +89,15 @@
           </div>
         </div>
       </div>
-<!-- End of User Profile Section -->
 
-<!-- Begin of Repositories Section -->
-      <div class="container-fluid" id="#repo" style="padding-top: 3%;">
-        <h4 class="style2" style="font-size: 28px;">{{users.name | last}}'s Repositories</h4>
+      <div class="container-fluid">
+      <h4 class="style2" style="font-size: 28px;">{{users.name}}'s Repositories</h4>
     
           <hr class="style2">
         <div class="row">
 
 
-          <div class="col-md-4" *ngFor="let repo of repos;let i = 'index'">
+          <div class="col-md-4" *ngFor="let repo of repos;let i = 'index'" id="repos">
 
                 <div class="cards repocard">
                   <div class="card-header">
@@ -131,8 +120,7 @@
         </div>
       </div>
 
-      <!-- End of Repositories Section -->
+     
     </div>
   </div>
-</div>
-<!-- End of Wrapper -->
+

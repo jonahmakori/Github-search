@@ -1,6 +1,5 @@
-/* Body Styling */
 
-div.wrapper{
+.body{
 margin-top: 80px;
 background-color: rgb(83, 104, 94);
 font-size: 30px;
@@ -8,9 +7,6 @@ font-size: 30px;
 .inline{
     display: inline;
 }
-
-
-/* User Profile Styling */
 .profile{
     margin: 20px;
 }
@@ -21,17 +17,10 @@ img{
 }
 
 h4.style2{
-    margin-top: 50px;
     font-family: 'Great Vibes', cursive; 
     text-align: center;
     font-size: 36px;
     color:rgb(11, 228, 29);
-}
-h4{
-    font-family: 'Great Vibes', cursive; 
-    text-align: center;
-    font-size: 36px;
-    color:#0BB6E4;
 }
 table {
     border-collapse: collapse;
@@ -42,9 +31,6 @@ th, td {
     text-align: left;
     padding: 8px;
 }
-
-tr:nth-child(even) {background-color: #f2f2f2;}
-
 
 div.col-md-3{
     text-align: center;
@@ -74,9 +60,6 @@ i{
     color:#8c8b8b;
 }
 
-/* End of Users Styling */
-
-/* Repositories section styling */
 div.cards{
     width: 100%;
 }
@@ -88,26 +71,3 @@ div.cards.repocard{
     margin-bottom: 15px;
 
 }
-
-div.container-fluid.search{
-    padding-bottom: 0px;
-
-}
-/* End of Repositories Styling */
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 348px) {
-    div.card-header{
-        height: 180px;
-    }
-
-} 
-
-@media only screen and (max-width: 610px)and (min-width:348px) {
-    div.card-header{
-        height: 110px;
-    }
-
-} 
-
-

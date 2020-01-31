@@ -17,10 +17,7 @@
           <button  class="btn btn-primary" type="submit"> <i class="fas fa-search"></i>Search</button>
         </form>
       </div>
-      <!-- End of search input -->
 
-
-      <!-- Begining of Repositories section -->
       <div class="col-md-6" *ngFor="let repo of repos['items']">
 
       <div class="cards repocard" >
@@ -36,9 +33,6 @@
               </span>
           </div>
           <div class="card-body">
-            <p>
-                {{repo['description']}}
-            </p>
             <p>
               {{repo['created_at'] | date}} 
             </p>
